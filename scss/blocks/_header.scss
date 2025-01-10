@@ -1,0 +1,138 @@
+.header {
+    background-color: #181818;
+ 
+}
+
+.header__wrapper {   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.header__left {
+display: flex;
+gap: 20px;
+}
+.header__location {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: $secondery-color;
+    border-radius: 13px;
+    padding: 8px 16px;
+
+}
+.header__city {
+    font-family: in;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.header__span {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background-color: #fff;
+
+
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.header__link {
+    font-family: in;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.header__right { display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header__btn {
+    background-color: #181818;
+    border: 2px solid #3C3C3C;
+     color: white;
+     padding: 15px 20px;
+     border-radius: 10px;
+
+
+}
+.header__icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header__icon {
+    background-color: $secondery-color;
+    padding: 15px;
+    border-radius: 50%;
+
+}
+.header__icon--messange{
+position: relative;
+}
+
+.header__icon--messange::after{
+    content: "1";
+    width: 20px;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;align-items: center;
+    justify-content: center;
+    background-color: red;
+    top: -5px;
+    right: -8px;
+}
+
+
+.header__list{
+    display: none;
+}
+
+
+@media only screen and (max-width: 480px){
+    .header__menu{
+        display: none;
+    }
+    .header__location{
+        display: none;
+    }
+    .header__wrapper{
+        justify-self: flex-start;
+    }
+    
+
+.header__wrapper{
+    width: 480px;
+    gap: 30px;
+}
+    .header__btn{
+        display: none;
+    }
+    .header__list{
+        display: block;
+    }
+    .header__icon{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;justify-content: center;
+    }
+    .header__img{
+        width: 15px;
+    }
+}

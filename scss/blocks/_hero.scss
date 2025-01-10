@@ -1,0 +1,95 @@
+.hero{
+    background-image: url(../../imgs/бг\ \(1\).png);
+    background-size: cover;
+    height: 
+    735px;
+    
+}
+.bi{
+    color: white;
+}
+
+
+
+
+.hero__main-text {
+    font-family: in;
+    font-size: 89px;
+    font-weight: 700;
+    line-height: 95px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 20px;
+
+}
+.hero__text {
+    font-family: in;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.hero__info {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+.hero__info-text {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .hero__main-text{
+        font-family: in;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+
+    .hero__text{
+        font-family: in;
+        margin-top: 20px;
+font-size: 13px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+
+    .hero{
+        background-image: url(../../imgs/бг.png);
+        background-size: cover;
+        background-position: center;
+        height: 
+        735px;
+
+    }
+    .hero__info-text{
+display: none;
+    }
+    .hero__info-text--first{
+        display: inline-block;
+        margin-left: 200px;
+        font-family: Sansation;
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+    }
+}

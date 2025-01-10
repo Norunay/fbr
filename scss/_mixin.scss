@@ -1,0 +1,16 @@
+@mixin df($gap:5px,$js:center,) {
+  display: flex;
+  justify-content: $jc;
+  gap: $gap;
+  align-items: center;
+
+}
+
+
+
+@mixin font($s,$w:700,$c:white){
+  font-family:'robo', monospace;
+  font-weight: $w;
+  color: $c;
+  font-size: $s;
+}
